@@ -98,7 +98,7 @@ body{
   position: absolute;
   margin-top: 44.7%;
   top: 0%; 
-  left: 70%; /* Adjust as needed */
+  left: 61.5%; /* Adjust as needed */
   font-family: "Bradley Hand ITC TT", "Handwriting-Dakota", sans-serif;
   color: rgb(16, 127, 224);
   /* font-family: 'Viner Hand ITC',Bold; */
@@ -110,11 +110,11 @@ body{
 
 #Artwork{
   position: relative;
-  right: 240px;
-  height: 70%;
-  bottom: 930px;
+  right: 230px;
+  /* height: 100%; */
+  bottom: 900px;
   z-index: 12;
- 
+  height: 730px;
 }
 
 #Artwork {
