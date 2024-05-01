@@ -1,0 +1,213 @@
+body{
+  display: flex;
+}
+
+#box {
+  margin: 5px;
+  padding: 5px;
+  width: 1080px;
+  height: 1080px;
+  background-color: rgb(128, 128, 128); /* Grey color in RGB format */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: flex-start; /* Align items to the start of the container (top) */
+  align-items: center;
+  position: relative; /* Necessary for absolute positioning */
+}
+
+ 
+#logo {
+  position: absolute;
+  top: 30px; /* Position the logo at the top of the container */
+  left: 15%;
+  width: 15%; /* Make the logo span the entire width of the container */
+  height: auto; /* Maintain aspect ratio */
+}
+#text {
+  font-family: "Comforter Brush", cursive;
+  position: relative;
+  top: 16px;
+  margin-left: 116px; /* Adjust the distance between the logo and the text */
+  font-size: 79px;
+  color:white;
+}
+
+#social-icons {
+  position: relative;
+  bottom: 20px; /* Position the social icons at the bottom of the container */
+  left: 20px; /* Position the social icons at the left corner */
+
+}
+
+#social-icons img {
+  margin-top: 90px;
+  width: 900px; /* Set the width of the social icons */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 220px; /*Adjust the spacing between social icons
+  /* fill: white; */
+}
+
+#social-icons01 {
+  position: absolute;
+  top: 462px; /* Position the social icons at the bottom of the container */
+  left: 530px; /* Position the social icons at the left corner */
+  
+
+
+}
+
+#social-icons01 img {
+  /* margin-top: 500%; */
+  width:900px; 
+  height: auto; /* Maintain aspect ratio */
+  /*Adjust the spacing between social icons
+  /* fill: white; */
+  z-index: 1;
+}
+
+
+#Layer_1{
+  position: absolute;
+  margin-top: 1%;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+
+}
+
+#Layer_2{
+  margin-top: 10%;
+  left: 375px;
+  position: absolute;
+  width: 980px;
+
+
+
+  
+}
+
+
+@font-face {
+  font-family: 'Bradley Hand ITC TT Bold';
+  src: url('file:///C:/Windows/Fonts/BradHITC.ttf') format('truetype');
+}
+
+
+
+#box .svg-text {
+  position: absolute;
+  margin-top: 44.7%;
+  top: 0%; 
+  left: 70%; /* Adjust as needed */
+  font-family: "Bradley Hand ITC TT", "Handwriting-Dakota", sans-serif;
+  color: rgb(16, 127, 224);
+  /* font-family: 'Viner Hand ITC',Bold; */
+  font-size: 30px; /* Adjust as needed */
+  color: black; /* Text color */
+  text-align: center;
+  
+}
+
+#Artwork{
+  position: relative;
+  right: 240px;
+  height: 70%;
+  bottom: 930px;
+  z-index: 12;
+ 
+}
+
+#Artwork {
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+#box1 {
+  margin: 5px;
+  padding: 5px;
+  width: 1080px;
+  height: 1080px;
+  background-color: rgb(128, 128, 128); /* Grey color in RGB format */
+  display:inline-block;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: flex-start; /* Align items to the start of the container (top) */
+  align-items: center;
+  position: relative; /* Necessary for absolute positioning */
+  font-family: "Comforter Brush", cursive;
+  
+}
+
+.box1{
+  font-family: "Comforter Brush", cursive;
+  position: relative;
+  top: 16px;
+  margin-left: 116px; /* Adjust the distance between the logo and the text */
+  font-size: 79px;
+  color:white;
+
+}
+
+#box1 .text1 {
+  font-size: 40px; /* Increase text size */
+  color: white; /* Change text color to white */
+  margin-top: 1030px;
+  margin-left: 730px;
+  /* font-size: 50px; */
+}
+
+
+
+#box1 .text2 {
+  color: white; /* Change text color to blue */
+  font-size: 60px;
+  text-align: center;
+  position: relative ; 
+  margin-top: -600px;
+}
+
+.text3 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+#Layer_10 {
+  position: relative;
+  /* margin-top: 900px; */
+  /* top: 500px; */
+  margin-left: -40px;
+  width: 500px;
+  margin-top: 280px;
+}
+
+
+#downloadButton {
+  display: inline-block;
+  padding: 15px 30px; /* Increase padding to increase button size */
+  font-size: 18px; /* Increase font size */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add smooth transition */
+}
+
+#downloadButton:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
